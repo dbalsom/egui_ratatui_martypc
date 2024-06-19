@@ -78,7 +78,7 @@ impl egui::Widget for &mut RataguiBackend {
 
         if (cur_size.width != available_chars_width) || (cur_size.height != available_chars_height)
         {
-            self.resize(available_chars_width, available_chars_height);
+            //self.resize(available_chars_width, available_chars_height);
         }
         let cur_buf = self.buffer();
 
